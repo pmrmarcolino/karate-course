@@ -42,7 +42,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.searchAttribute">
     <configuration name="Feature: buscaTitulos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/examples/books/buscaTitulos.feature" />
@@ -153,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576516710920</updated>
-      <workItem from="1576516718225" duration="8014000" />
+      <workItem from="1576516718225" duration="9270000" />
     </task>
     <servers />
   </component>
@@ -165,22 +165,22 @@
       <screen x="-1366" y="23" width="1366" height="745" />
     </state>
     <state x="-1084" y="61" key="#Project_Structure/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576517451244" />
-    <state width="1324" height="320" key="GridCell.Tab.0.bottom" timestamp="1576525808941">
+    <state width="1324" height="241" key="GridCell.Tab.0.bottom" timestamp="1576605073871">
       <screen x="-1366" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="320" key="GridCell.Tab.0.bottom/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576525808941" />
-    <state width="1324" height="320" key="GridCell.Tab.0.center" timestamp="1576525808940">
+    <state width="1324" height="241" key="GridCell.Tab.0.bottom/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576605073871" />
+    <state width="1324" height="241" key="GridCell.Tab.0.center" timestamp="1576605073869">
       <screen x="-1366" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="320" key="GridCell.Tab.0.center/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576525808940" />
-    <state width="1324" height="320" key="GridCell.Tab.0.left" timestamp="1576525808939">
+    <state width="1324" height="241" key="GridCell.Tab.0.center/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576605073869" />
+    <state width="1324" height="241" key="GridCell.Tab.0.left" timestamp="1576605073868">
       <screen x="-1366" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="320" key="GridCell.Tab.0.left/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576525808939" />
-    <state width="1324" height="320" key="GridCell.Tab.0.right" timestamp="1576525808941">
+    <state width="1324" height="241" key="GridCell.Tab.0.left/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576605073868" />
+    <state width="1324" height="241" key="GridCell.Tab.0.right" timestamp="1576605073870">
       <screen x="-1366" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="320" key="GridCell.Tab.0.right/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576525808941" />
+    <state width="1324" height="241" key="GridCell.Tab.0.right/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576605073870" />
     <state x="-1146" y="57" key="Maven.ArtifactSearchDialog" timestamp="1576518930246">
       <screen x="-1366" y="23" width="1366" height="745" />
     </state>
