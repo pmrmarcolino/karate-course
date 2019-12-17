@@ -1,16 +1,16 @@
-15:51:20.195 karate.env system property was: null 
-15:51:20.201 request:
+17:40:00.091 karate.env system property was: null 
+17:40:00.097 request:
 1 > GET http://fakerestapi.azurewebsites.net/api/Books/1
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: fakerestapi.azurewebsites.net
 1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
 
-15:51:20.643 response time in milliseconds: 441.52
+17:40:00.552 response time in milliseconds: 454.85
 1 < 200
 1 < Cache-Control: no-cache
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Tue, 17 Dec 2019 17:51:22 GMT
+1 < Date: Tue, 17 Dec 2019 19:40:03 GMT
 1 < Expires: -1
 1 < Pragma: no-cache
 1 < Server: Microsoft-IIS/10.0
@@ -18,5 +18,6 @@
 1 < Vary: Accept-Encoding
 1 < X-AspNet-Version: 4.0.30319
 1 < X-Powered-By: ASP.NET
-{"ID":1,"Title":"Book 1","Description":"Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n","PageCount":100,"Excerpt":"Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n","PublishDate":"2019-12-16T17:51:23.5846474+00:00"}
+{"ID":1,"Title":"Book 1","Description":"Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n","PageCount":100,"Excerpt":"Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n","PublishDate":"2019-12-16T19:40:03.768518+00:00"}
+
 

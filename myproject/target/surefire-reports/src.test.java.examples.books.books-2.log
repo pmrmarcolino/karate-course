@@ -1,0 +1,23 @@
+17:41:36.051 karate.env system property was: null 
+17:41:36.060 request:
+1 > GET http://fakerestapi.azurewebsites.net/api/Books/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
+
+17:41:36.542 response time in milliseconds: 480.97
+1 < 200
+1 < Cache-Control: no-cache
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 17 Dec 2019 19:41:39 GMT
+1 < Expires: -1
+1 < Pragma: no-cache
+1 < Server: Microsoft-IIS/10.0
+1 < Set-Cookie: ARRAffinity=4b62b3ca330ad84db206d5706027a4b931d5c324f6f2385abed4e705071c736d;Path=/;HttpOnly;Domain=fakerestapi.azurewebsites.net
+1 < Vary: Accept-Encoding
+1 < X-AspNet-Version: 4.0.30319
+1 < X-Powered-By: ASP.NET
+{"ID":1,"Title":"Book 1","Description":"Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n","PageCount":100,"Excerpt":"Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\nLorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n","PublishDate":"2019-12-16T19:41:39.7619683+00:00"}
+
+17:41:07.390 assertion failed: assert evaluated to false: bookTitle + bookId == response.Title

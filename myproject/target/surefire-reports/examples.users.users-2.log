@@ -1,5 +1,5 @@
-17:18:34.224 karate.env system property was: null 
-17:18:34.235 request:
+17:40:02.080 karate.env system property was: null 
+17:40:02.099 request:
 1 > POST https://jsonplaceholder.typicode.com/users
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -9,24 +9,24 @@
 1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_221)
 {"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
 
-17:18:34.597 response time in milliseconds: 360.73
+17:40:02.872 response time in milliseconds: 772.06
 1 < 201
 1 < Access-Control-Allow-Credentials: true
 1 < Access-Control-Expose-Headers: Location
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 546301078c2aeee2-GRU
+1 < CF-RAY: 546b5de6c9dcf1d6-GRU
 1 < Cache-Control: no-cache
 1 < Connection: keep-alive
 1 < Content-Length: 216
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Mon, 16 Dec 2019 19:18:35 GMT
+1 < Date: Tue, 17 Dec 2019 19:40:05 GMT
 1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Expires: -1
 1 < Location: http://jsonplaceholder.typicode.com/users/11
 1 < Pragma: no-cache
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d749036fb50f2bfcbc47b9e1bbab5130e1576523915; expires=Wed, 15-Jan-20 19:18:35 GMT; path=/; domain=.typicode.com; HttpOnly
+1 < Set-Cookie: __cfduid=dbe7a4e5d2351d1cd7e79ee6a2f1b39ca1576611605; expires=Thu, 16-Jan-20 19:40:05 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
 1 < Via: 1.1 vegur
 1 < X-Content-Type-Options: nosniff
@@ -44,4 +44,4 @@
   "id": 11
 }
 
-17:18:34.610 [print] created id is:  11
+17:40:02.883 [print] created id is:  11

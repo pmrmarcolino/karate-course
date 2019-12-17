@@ -1,6 +1,8 @@
 Feature: Library
 Background:
  * url 'http://fakerestapi.azurewebsites.net'
+ * def bookTitle = "Book "
+ * def bookId = 1
   Scenario: GET books
     Given path '/api/Books'
     When method GET
@@ -13,3 +15,4 @@ Background:
     When method GET
     Then status 200
 
+    * assert bookTitle + bookId == response.Title

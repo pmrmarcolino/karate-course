@@ -1,2 +1,4 @@
-15:51:16.481 karate.env system property was: null 
-15:51:18.562 [print]
+17:39:50.259 karate.env system property was: null 
+17:39:55.987 feature call failed: books.feature
+arg: null
+books.feature:18 - javascript evaluation failed: bookTitle + bookId == response.Title, ReferenceError: "bookId" is not defined in <eval> at line number 1

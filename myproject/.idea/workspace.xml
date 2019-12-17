@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cc14c1f-6850-4104-a7f0-a5a40e0a04df" name="Default Changelist" comment="" />
+    <list default="true" id="7cc14c1f-6850-4104-a7f0-a5a40e0a04df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/books/books.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examples/books/books.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/books-1_main.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/books-1_main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/books-2_main.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/books-2_main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/examples.books.books-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/examples.books.books-1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/examples.books.books-2.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/examples.books.books-2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/examples.books.books.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/examples.books.books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/examples.books.searchAttribute-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/examples.books.searchAttribute-1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/examples.books.searchAttribute-2.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/examples.books.searchAttribute-2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/examples.books.searchAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/examples.books.searchAttribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/books/books.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/books/books.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,19 +58,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Cucumber java.Feature: buscaTitulos">
-=======
-  <component name="RunManager" selected="JUnit.searchAttribute">
->>>>>>> backgroud_path
-    <configuration name="Feature: buscaTitulos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Feature: books">
+    <configuration name="Feature: books" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/examples/books/buscaTitulos.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/examples/books/books.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="myproject" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: buscaTitulos" />
+      <option name="SUGGESTED_NAME" value="Feature: books" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -68,22 +77,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BooksRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamplesTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="examples.books.*" />
+          <option name="PATTERN" value="examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="examples.books" />
-      <option name="MAIN_CLASS_NAME" value="examples.books.BooksRunner" />
+      <option name="PACKAGE_NAME" value="examples" />
+      <option name="MAIN_CLASS_NAME" value="examples.ExamplesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExamplesTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamplesTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.searchAttribute" />
-        <item itemvalue="Cucumber java.Feature: buscaTitulos" />
-        <item itemvalue="JUnit.BooksRunner" />
+        <item itemvalue="Cucumber java.Feature: books" />
+        <item itemvalue="JUnit.ExamplesTest (2)" />
         <item itemvalue="JUnit.ExamplesTest (1)" />
         <item itemvalue="JUnit.ExamplesTest" />
+        <item itemvalue="JUnit.searchAttribute" />
       </list>
     </recent_temporary>
   </component>
@@ -172,22 +181,22 @@
       <screen x="-1366" y="23" width="1366" height="745" />
     </state>
     <state x="-1084" y="61" key="#Project_Structure/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576517451244" />
-    <state width="1324" height="241" key="GridCell.Tab.0.bottom" timestamp="1576605073871">
+    <state width="1324" height="219" key="GridCell.Tab.0.bottom" timestamp="1576611692279">
       <screen x="-1366" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="241" key="GridCell.Tab.0.bottom/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576605073871" />
-    <state width="1324" height="241" key="GridCell.Tab.0.center" timestamp="1576605073869">
+    <state width="1324" height="219" key="GridCell.Tab.0.bottom/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576611692279" />
+    <state width="1324" height="219" key="GridCell.Tab.0.center" timestamp="1576611692278">
       <screen x="-1366" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="241" key="GridCell.Tab.0.center/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576605073869" />
-    <state width="1324" height="241" key="GridCell.Tab.0.left" timestamp="1576605073868">
+    <state width="1324" height="219" key="GridCell.Tab.0.center/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576611692278" />
+    <state width="1324" height="219" key="GridCell.Tab.0.left" timestamp="1576611692277">
       <screen x="-1366" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="241" key="GridCell.Tab.0.left/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576605073868" />
-    <state width="1324" height="241" key="GridCell.Tab.0.right" timestamp="1576605073870">
+    <state width="1324" height="219" key="GridCell.Tab.0.left/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576611692277" />
+    <state width="1324" height="219" key="GridCell.Tab.0.right" timestamp="1576611692279">
       <screen x="-1366" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="241" key="GridCell.Tab.0.right/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576605073870" />
+    <state width="1324" height="219" key="GridCell.Tab.0.right/-1366.23.1366.745/0.23.1366.745@-1366.23.1366.745" timestamp="1576611692279" />
     <state x="-1146" y="57" key="Maven.ArtifactSearchDialog" timestamp="1576518930246">
       <screen x="-1366" y="23" width="1366" height="745" />
     </state>
